@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					CC1D489520C7BD1600D86DF1 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -274,12 +274,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2R2836HTD7;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ketankumar Raval (K9582627P4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ketankumar Raval (K9582627P4)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3XU2FJ59BN;
 				INFOPLIST_FILE = CI_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lestnurture.CI-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letsnurture.HRMSInHouseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9afbcf59-4fe3-40cf-88b8-507c99731d3f";
+				PROVISIONING_PROFILE_SPECIFIER = LN_HRMS_Development;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +294,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2R2836HTD7;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ketan Raval (3XU2FJ59BN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ketan Raval (3XU2FJ59BN)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3XU2FJ59BN;
 				INFOPLIST_FILE = CI_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lestnurture.CI-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letsnurture.HRMSInHouseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1f0a631f-d683-44f7-ad6e-06d4d46ec7e5";
+				PROVISIONING_PROFILE_SPECIFIER = LN_HRMS_AppStore;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
